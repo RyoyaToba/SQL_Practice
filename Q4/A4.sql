@@ -9,6 +9,6 @@ SELECT
 FROM
 players AS p
 GROUP BY 
-country_id
+p.country_id
 ORDER BY 
-avg(height) DESC
+avg(p.height) DESC
