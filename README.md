@@ -1,2 +1,2 @@
-# SQL_Practice
-https://tech.pjin.jp/blog
+## SQL_Practice
+https://tech.pjin.jp/
