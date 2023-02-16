@@ -1,6 +1,6 @@
 SELECT
  (SELECT 
-  	name 
+  	c.name 
   FROM 
   	countries AS c 
   WHERE c.id = p.country_id
