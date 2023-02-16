@@ -4,5 +4,5 @@ c.name
 FROM countries AS c
 JOIN players AS p
 ON p.country_id = c.id
-GROUP BY c.name
+GROUP BY c.id, c.name
 ORDER BY avg(height) DESC
