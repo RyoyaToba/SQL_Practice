@@ -5,7 +5,7 @@ SELECT
   	countries AS c 
   WHERE c.id = p.country_id
  ) AS "国名"
- ,avg(height) AS "平均身長"
+ ,avg(p.height) AS "平均身長"
 FROM
 players AS p
 GROUP BY 
